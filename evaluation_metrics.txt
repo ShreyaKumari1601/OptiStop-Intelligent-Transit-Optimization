@@ -1,0 +1,37 @@
+============================================================
+OptiStop -- Evaluation Metrics Report
+============================================================
+
+Total simulated commuters analyzed : 4000
+Candidate k range evaluated         : 2–12
+Chosen optimal k (recommended stops): 10
+Final model silhouette score        : 0.5876
+
+-- Elbow Method / Silhouette scan --
+   k |        inertia | silhouette
+   2 |          19.32 |     0.4057
+   3 |          11.77 |     0.4479
+   4 |           7.01 |     0.5343
+   5 |           4.51 |     0.5571
+   6 |           3.29 |     0.5689
+   7 |           2.79 |     0.5676
+   8 |           2.44 |     0.5562
+   9 |           2.13 |     0.5593
+  10 |           1.82 |     0.5890
+  11 |           1.64 |     0.5946
+  12 |           1.48 |     0.5944
+
+-- Coverage Analysis --
+Acceptable walk distance     : 0.4 km
+Mean distance to nearest stop: 1.6247 km
+Median distance to nearest stop: 1.3421 km
+Commuters within acceptable walk: 7.38%
+
+-- Top 5 Highest-Demand Recommended Stops --
+  #1: cluster 2 near 'Koramangala' -> (12.924817, 77.631349) | total_demand=833.18 | commuters=747
+  #2: cluster 1 near 'Whitefield' -> (12.969754, 77.749816) | total_demand=580.59 | commuters=514
+  #3: cluster 4 near 'Electronic City' -> (12.845317, 77.659557) | total_demand=535.47 | commuters=484
+  #4: cluster 7 near 'MG Road / Trinity' -> (12.974483, 77.604903) | total_demand=488.7 | commuters=434
+  #5: cluster 6 near 'Indiranagar' -> (12.972829, 77.641403) | total_demand=447.55 | commuters=395
+
+============================================================
