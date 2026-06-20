@@ -206,16 +206,6 @@ All numbers are reproducible — re-run `python main.py` and check `outputs/eval
 - `outputs/evaluation_metrics.txt` — full elbow/silhouette scan + coverage report
 - `outputs/elbow_curve.png`, `silhouette_scores.png`, `cluster_plot.png`, `demand_heatmap.png`
 
-### Screenshots
-
-> Add your own screenshots to `screenshots/` and reference them here, e.g.:
->
-> ```markdown
-> ![Interactive Map](screenshots/map_view.png)
-> ![Cluster Plot](screenshots/cluster_plot.png)
-> ![Streamlit Dashboard](screenshots/dashboard.png)
-> ```
-
 ---
 
 ## 🌐 Deployment (Streamlit Community Cloud)
